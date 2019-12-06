@@ -25,6 +25,7 @@ const store = {
       correctAnswer: '2019'
     }
   ],
+  quizStarted: false,
   questionNumber: 0,
   score: 0
 };
