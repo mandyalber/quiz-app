@@ -47,7 +47,7 @@ const store = {
 
 /********** TEMPLATE GENERATION FUNCTIONS **********/
 
-// These functions return HTML
+// These functions return HTML templates 
 
 /********** RENDER FUNCTION(S) **********/
 
