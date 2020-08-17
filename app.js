@@ -35,7 +35,7 @@ const store = {
  * Technical requirements:
  * 
  * Your app should include a render() function, that regenerates the view each time the store is updated. 
- * See your course material, consult your instructor, and reference the slides for more details.
+ * See your course material and access support for more details.
  *
  * NO additional HTML elements should be added to the index.html file.
  *
