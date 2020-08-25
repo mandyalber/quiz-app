@@ -1,8 +1,90 @@
-/* Your styles should be mobile-first and responsive */
+/*css styles*/
 
-/** 
-  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
-  *
-  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
-  *
-*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url("images/sleeping-baby.jpg") no-repeat center;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Calibri', sans-serif;
+  font-size: 24px;
+  color: #050709;
+}
+
+header {
+  background-color: #1c2833;
+  color:#E8E8E8;
+  text-align: center;
+  padding: 2%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+div {
+  background:rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  margin: 10%;   
+  padding: 5%;  
+}
+
+form {
+  background:rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  font-size: 16px; 
+  padding: 5% 10%;  
+  margin: 0% 10% 5% 10%;  
+}
+
+ul {
+  list-style: none;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5% 10% 0% 10%
+}
+p, li {
+  text-align: left;  
+}
+
+.button {
+  background-color: #1c2833;
+  color:#E8E8E8;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  background-color: #345a5e;
+}
+
+p.correct {
+  color: #005500;
+}
+p.incorrect {
+  color: #ff0000;
+}
+
+/*responsive styles (Desktop)*/
+
+@media all and (min-width: 900px) {
+
+  div, ul, form {
+    font-size: 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
