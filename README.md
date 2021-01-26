@@ -2,7 +2,7 @@
 
 #### Link to Live App
 
-https://github.com/mandyalber/quiz-app
+https://mandyalber.github.io/quiz-app/
 
 #### Summary
 
